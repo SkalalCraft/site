@@ -1,11 +1,18 @@
-.menu
-
+.menu {
+  margin: 20px;
+}
+.logo {
+  position: absolute;
+  font-family: 'Franklin Gothic Heavy';
+  font-size: 160%;
+}
 .right {
- font-family: 'Roboto', sans-serif;
- font-size: 13px;
- color: #333;
- line-height: 150%;
  float: right;
+}
+    background: url(../images/bg.png);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
 @font-face {
     font-family: "Franklin Gothic Heavy";
