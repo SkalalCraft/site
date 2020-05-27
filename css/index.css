@@ -7,8 +7,13 @@
   font-size: 160%;
 }
 .right {
+
+ font-family: 'Comfortaa';
+ font-size: 120%;
  float: right;
 }
+.bg {
+    height: 100vh;
     background: url(../images/bg.png);
     position: absolute;
     bottom: 0px;
