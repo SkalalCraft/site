@@ -1,23 +1,36 @@
-.menu {
-  margin: 20px;
+body{
+  font-family: Franklin Gothic Heavy;
+}
+*{
+  padding: 0;
+  margin: 0;
 }
 .logo {
-  position: absolute;
-  font-family: 'Franklin Gothic Heavy';
-  font-size: 160%;
+  font-size: 32px;
+  padding: 11px 6px;
+  display: inline-block;
 }
-.right {
+.right{
+  font-family: Comfortaa;}
+a{
+  text-decoration: none;
+}
+header {
+  background: none;
+}
+.header-container{
+   width: 1400px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+}
+.header-container a{
+  font-size: 16px;
+  padding: 27px 6px;
+  display: inline-block;
+}
+nav {
 
- font-family: 'Comfortaa';
- font-size: 120%;
- float: right;
-}
-.bg {
-    height: 100vh;
-    background: url(../images/bg.png);
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
 }
 @font-face {
     font-family: "Franklin Gothic Heavy";
