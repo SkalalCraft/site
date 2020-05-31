@@ -9,17 +9,20 @@ body{
   font-size: 32px;
   padding: 11px 6px;
   display: inline-block;
+  color: white;
 }
 .right{
   font-family: Comfortaa;}
 a{
   text-decoration: none;
+  color: white;
 }
 header {
   background: none;
+  z-index: 2;
 }
 .header-container{
-   width: 1400px;
+   width: 90%;
    margin: 0 auto;
    display: flex;
    justify-content: space-between;
@@ -29,8 +32,37 @@ header {
   padding: 27px 6px;
   display: inline-block;
 }
-nav {
-
+.play {
+ height: 100vh;
+ width: 100%;
+ background: url(../images/bg.png);
+ background-position: center;
+ position: absolute;
+ top: 0px;
+ z-index: -1;
+}
+.button-text {
+  color: white;
+  margin: 40vh 10vh 0;
+  font-size: 72px;
+}
+button {
+    color: white;
+    font-family: Franklin Gothic Heavy ;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: pointer;
+    background-color: #8cc63f;
+    box-sizing: border-box;
+    margin:  2vh 14vh;
+    padding: 1px 6px;
+    border-width: 4px;
+    border-style: outset;
+    border-color: #8cc63f;
+    box-sizing: content-box;
+    width: 250px ;
+    height: 40px
 }
 @font-face {
     font-family: "Franklin Gothic Heavy";
@@ -47,3 +79,16 @@ nav {
      src: url((../fonts/comfortaa-bold.woff)
           url((../fonts/comfortaa-bold.svg)
           url((../fonts/comfortaa-bold.eot);}
+@media screen and ( max-width: 720px) {
+  .header-container{
+    background: #222222;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+  }
+  .right {
+    display: none;
+}
+button {
+    display: none;
+  }
